@@ -1,0 +1,1 @@
+# deb-sway-capttuccin-fast
