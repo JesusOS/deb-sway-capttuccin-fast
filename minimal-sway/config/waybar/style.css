@@ -1,0 +1,44 @@
+* {
+    font-family: "JetBrains Mono", "Font Awesome 6 Free", sans-serif;
+    font-size: 13px;
+    border: none;
+    border-radius: 6px;
+}
+
+window#waybar {
+    background-color: #181825;
+    color: #cdd6f4;
+    border-bottom: 2px solid #89b4fa;
+    border-radius: 0;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    margin: 3px 2px;
+    color: #6c7086;
+    background-color: #1e1e2e;
+}
+
+#workspaces button.focused {
+    color: #1e1e2e;
+    background-color: #89b4fa;
+    font-weight: bold;
+}
+
+#window {
+    color: #cdd6f4;
+    padding: 0 10px;
+}
+
+#clock, #cpu, #memory, #network, #pulseaudio, #language {
+    padding: 0 10px;
+    margin: 3px 3px;
+    background-color: #1e1e2e;
+}
+
+#pulseaudio { color: #f9e2af; }
+#network    { color: #89b4fa; }
+#cpu        { color: #a6e3a1; }
+#memory     { color: #cba6f7; }
+#language   { color: #94e2d5; }
+#clock      { color: #f5c2e7; font-weight: bold; }
