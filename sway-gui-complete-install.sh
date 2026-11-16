@@ -1,5 +1,4 @@
-﻿cat << 'EOF' > sway-gui-complete-install.sh
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 set -e
 
 echo "==> 1. Actualizando repositorios e instalando paquetes..."
@@ -351,5 +350,3 @@ window {
 INNER_EOF
 
 echo "âœ… Â¡InstalaciÃ³n completada! Reinicia el equipo para entrar por tu nuevo gestor de sesiÃ³n."
-EOF
-chmod +x sway-gui-complete-install.sh
